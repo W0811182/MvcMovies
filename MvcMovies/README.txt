@@ -86,3 +86,12 @@ I made the changes and Now I am going to retest and see if my seeddata is taking
 1746
 I forgot I had to add the Ids manually to my seed data! I took a second getting through that error :)
 now im on to the next part which means commit time!
+
+Part 6 - Controller Methods and views
+
+1749
+First I am going to add some data annotation to my movie model, specifically the release data and price columns for now
+
+1752
+I think this was all I needed for this part so time for the next and another commit
+

@@ -95,3 +95,18 @@ First I am going to add some data annotation to my movie model, specifically the
 1752
 I think this was all I needed for this part so time for the next and another commit
 
+Part 7 - Add a Search
+
+1753
+added the search logic to the controller, now to add the view portion and hook it all up
+
+1758
+Now to add the ability to search by genre aswell, I have to create a new model class for this.
+
+1803
+Now to change the MoviesController once again to incorporate the search by genre
+
+1815
+The search by genre and the text search are functioning properly and this part is done. commit and next one
+
+

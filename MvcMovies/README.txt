@@ -13,3 +13,13 @@ Part 2 - Add a Controller
 1611 
 
 Before I start this step I am going to quickly make my github repo for this project so I can commit and push part by part
+
+1615
+Cool! Now I have part 1 uploaded to a github repository and I can start on the next step
+
+Part 2 is fully a testing and learning step so I am going to skip it. I am only going to commit when I complete a step and have created some code/content. 
+
+1620
+Part 3 - Add a view
+
+I think the only thing I have to do for this step is change the "MvcMovies" in the shared layout to instead say "Movie App"

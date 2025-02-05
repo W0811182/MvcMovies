@@ -23,3 +23,47 @@ Part 2 is fully a testing and learning step so I am going to skip it. I am only 
 Part 3 - Add a view
 
 I think the only thing I have to do for this step is change the "MvcMovies" in the shared layout to instead say "Movie App"
+
+1628
+I pushed what I did of the last part and now I am going to do part 4
+
+Part 4 - Add a model
+
+1629
+I actually have to do this part! this model is for the movies table. The views and controller will come later in the same part.
+
+
+1640
+created my model and built the project to load the required packages
+
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 4:40 PM and took 03.918 seconds ==========
+
+1641
+Its now time to create my controller and everything else I haven't yet with scaffolding
+
+I chose 'MVC Controller with views, using entity framework'
+
+to create a scaffolded item you need to have a model ready (like i just made! :) )
+
+the scaffolding process creates the DbContext Class, controller and view. 
+It also modified this .csproj of this project, the Program file and the appsettings
+
+Now I am going to create my initial migration to create the table
+
+1650
+Add-Migration
+Update-Database
+
+I am getting some errors about the null concerns on some of my fields in the movie model. 
+I am also getting an error about the connection to the SQL server. 
+I will have to manually configure this, I remember going through it the first time I did this tutorial.
+
+1655
+I had to change a part within my connection string from mssql to "ProjectModels".
+This is evident in the Object explorer as I found the name there, however, 
+I don't entirely understand why its called that or where the name came from as opposed to the default in my appsetting.json
+
+1658 
+After booting up and testing I am able to navigate to the ~/movies URL and the view and CRUD are waiting.
+I am now done with this step! commit time

@@ -67,3 +67,22 @@ I don't entirely understand why its called that or where the name came from as o
 1658 
 After booting up and testing I am able to navigate to the ~/movies URL and the view and CRUD are waiting.
 I am now done with this step! commit time
+
+1708
+pushing commit
+
+Part 5 - Working with a database
+
+1709 
+Its now time to create my seedData! the requirement for lab 4 is unique movies of our own choosing. So I will be adding that now
+
+1727
+
+seeding data is complete. Now I have to make some alterations for the initialization to actually take place
+
+1729 
+I made the changes and Now I am going to retest and see if my seeddata is taking
+
+1746
+I forgot I had to add the Ids manually to my seed data! I took a second getting through that error :)
+now im on to the next part which means commit time!
